@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="employee.xsl" type="text/xsl"?> 
+<employees>
+    <info>
+        <name>Om Nandurkar</name>
+        <age>20</age>
+        <salary>$100000</salary>
+        <address>Amravati</address>
+    </info>
+    <info>
+        <name>Sunny Kumar</name>
+        <age>21</age>
+        <salary>$100000</salary>
+        <address>Mumbai</address>
+    </info>
+    <info>
+        <name>Avinash Gambhire</name>
+        <age>22</age>
+        <salary>$100000</salary>
+        <address>Nagar</address>
+    </info>
+    <info>
+        <name>Sadanand Grude</name>
+        <age>23</age>
+        <salary>$100000</salary>
+        <address>Latur</address>
+    </info>
+    <info>
+        <name>Ganesh Bhai</name>
+        <age>24</age>
+        <salary>$100000</salary>
+        <address>Gujrat</address>
+    </info>
+    <info>
+        <name>Ratan Tata</name>
+        <age>25</age>
+        <salary>$100000</salary>
+        <address>Mumbai</address>
+    </info>
+</employees>

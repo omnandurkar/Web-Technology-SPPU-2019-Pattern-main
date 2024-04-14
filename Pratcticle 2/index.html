@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h4>Welcome to Our Restaurant</h4>
+            <h1>Khana Khazana</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to our restaurant! We pride ourselves on serving delicious meals made from the freshest ingredients. Our chefs are passionate about creating memorable dining experiences for our customers.</p>
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Restaurant Image" class="about-image" height="500px">
+        </div>
+    </section>
+
+    <section id="menu" class="section">
+        <div class="container">
+            <h2>Menu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Spaghetti Carbonara</td>
+                        <td>Classic pasta dish with bacon, eggs, and cheese</td>
+                        <td>$12.99</td>
+                    </tr>
+                    <tr>
+                        <td>Grilled Salmon</td>
+                        <td>Fresh salmon grilled to perfection</td>
+                        <td>$15.99</td>
+                    </tr>
+                    <tr>
+                        <td>Tiramisu</td>
+                        <td>Traditional Italian dessert made with coffee and mascarpone cheese</td>
+                        <td>$7.99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="reservation" class="section">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <form class="reservation-form">
+                <input type="text" placeholder="Name" required><br>
+                <input type="email" placeholder="Email" required><br>
+                <input type="date" required><br>
+                <select required>
+                    <option value="">Select Number of Guests</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><br>
+                <textarea placeholder="Additional Information"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For any inquiries, please email us at <a href="mailto:info@restaurant.com">info@restaurant.com</a> or call us at <a href="tel:+91 9766426214">9766426214</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
